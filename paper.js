@@ -1,22 +1,22 @@
 
 
 
-class paper {
+class Paper {
 
     constructor(x, y, radius) {
     
     var options = {
-    isStatis: false,
+    isStatic: false,
     "restitution": 0.3,
     "friction": 0.5,
     "density": 1.2
     
     }
-    
-    this.body = Bodies. cricle(x, y, radius, options);
     this.radius = radius;
+    this.body = Bodies.circle(x, y, radius, options);
     
-    world: add(wrold, this.body);
+    
+    World.add(world, this.body);
     }
     
      display () {
@@ -26,7 +26,7 @@ class paper {
        fill("yellow");
     
     
-    cricle(this.body.position.x, this.body.position.y, this.radius);
+    circle(this.body.position.x, this.body.position.y, this.radius);
     
     
     
