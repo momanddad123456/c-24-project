@@ -17,7 +17,7 @@ function setup() {
 
 	//Create the Bodies Here.
 
-    paper = new paper (100, 600, 10);
+    paper = new Paper (100, 600, 10);
 
     ground = new ground (400,660,800,20);
  
